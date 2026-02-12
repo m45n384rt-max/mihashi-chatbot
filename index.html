@@ -42,6 +42,18 @@
 </head>
 <body>
     <div id="root"></div>
-<script type="module" src="/index.tsx"></script>
+<script>
+document.getElementById("root").innerHTML = `
+  <div style="padding:40px; text-align:center;">
+    <h1>クリーニングミハシ</h1>
+    <p>M Care Counter</p>
+    <button onclick="alert('チャット起動')"
+      style="padding:10px 20px; margin-top:20px;">
+      チャットを開始
+    </button>
+  </div>
+`;
+</script>
+
 </body>
 </html>
